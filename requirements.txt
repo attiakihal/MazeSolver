@@ -1,0 +1,5 @@
+docopt
+matplotlib
+
+neighbor.heuristic = abs(
+                neighbor.position[0] - current.position[0]) + abs(neighbor.position[1] - current.position[1])
